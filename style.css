@@ -2,7 +2,8 @@ head, body, footer {
   text-align: center;
     font-family: Calibri;
   color: #000000;
-  border: medium solid #000000
+  border: medium solid #000000;
+  margin: 30px;
 }
 
 .textContainer {
