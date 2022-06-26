@@ -2,6 +2,12 @@ head, body, footer {
   text-align: center;
     font-family: Calibri;
   color: #000000;
-  background-color: #0886A9;  
 }
 
+.textContainer {
+  background-color: #9B9D9C;
+}
+
+.headingContainer {
+    background-color: #0886A9;  
+}
