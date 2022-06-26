@@ -5,3 +5,10 @@ h1, h2, h3, h4, h5, h6 {
 head, body, footer {
   text-align: center
 }
+
+header {
+  font-family: Calibiri;
+  font-size: 52px;
+  color: #000000;
+  background-color: #0886A9;
+}
