@@ -9,8 +9,12 @@ head, body, footer {
 .textContainer {
   color: #4E003F;
   background-color: #9B9D9C;
+    border: medium solid #000000;
+  margin: 30px;
 }
 
 .headingContainer {
-    background-color: #0886A9;  
+    background-color: #0886A9;
+    border: medium solid #000000;
+  margin: 30px;
 }
