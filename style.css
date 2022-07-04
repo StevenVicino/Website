@@ -27,15 +27,15 @@ div {
   padding-bottom: 50px;
   height: auto;
 }
-button {
+a:link {
   color:blue;
 }
-button:hover {
+a:hover {
 color: purple;
 }
-button:active {
+a:active {
 color: green;
 }
-button:visited {
+a:visited {
  color:red;
 }
