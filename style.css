@@ -30,12 +30,13 @@ div {
 a:link {
 color: #03045e;
 }
+a:visited {
+color: #d62828;
+}
 a:hover {
 color: #7209b7;
 }
 a:active {
 color: #8ac926;
 }
-a:visited {
-color: #d62828;
-}
+
