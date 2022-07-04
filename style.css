@@ -28,14 +28,14 @@ div {
   height: auto;
 }
 a:link {
-  color:blue;
+  color: 03045e;
 }
 a:hover {
-color: purple;
+color: 7209b7;
 }
 a:active {
-color: green;
+color: 8ac926;
 }
 a:visited {
- color:red;
+ color: d62828;
 }
