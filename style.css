@@ -28,7 +28,7 @@ div {
   height: auto;
 }
 a:link {
-  color: 03045e;
+color: 03045e;
 }
 a:hover {
 color: 7209b7;
@@ -37,5 +37,5 @@ a:active {
 color: 8ac926;
 }
 a:visited {
- color: d62828;
+color: d62828;
 }
