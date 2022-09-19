@@ -41,3 +41,13 @@ a:active {
 color: #8ac926;
 }
 
+@media all and (min-width: 600px) {
+header {
+    display:flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+header nav{
+    align-items: center;
+}
