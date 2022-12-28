@@ -8,13 +8,13 @@ head, body, footer {
 
 .textContainer {
   color: #4E003F;
-  background-color: #9B9D9C;
+  background-color: grey;
     border: medium solid #000000;
   margin: 30px;
 }
 
 .headingContainer {
-    background-color: #0886A9;
+    background-color: grey;
     border: medium solid #000000;
   margin: 30px;
 }
@@ -29,16 +29,16 @@ div {
 }
 /* Button Stylization */
 a:link {
-color: #03045e;
+color: blue;
 }
 a:visited {
-color: #d62828;
+color: red;
 }
 a:hover {
-color: #7209b7;
+color: lightblue;
 }
 a:active {
-color: #8ac926;
+color: lightblue;
 }
 
 @media all and (min-width: 600px) {

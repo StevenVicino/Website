@@ -1,74 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
 
-  	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-  
-<title>Steven Vicino</title>
+    <title>Steven Vicino</title>
 
-<link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <!-- Website Code-->
+  <body>
+    <header class="headingContainer">
+      <img src="images/headshot.jpg" alt="Photo of Steven Vicino" />
+      <h1>Steven Vicino || Full Stack Web Developer</h1>
+    </header>
+    <main>
+      <section>
+        <p>
+          Hi, my name is Steven Vicino. I currently live in Valley Stream, New
+          York with my dog Raffi.
+        </p>
 
-</head>
-<!-- Website Code-->
-<body>
-<header class ="headingContainer">
-  <h1>Steven Vicino ||  Full Stack Web Developer</h1>
-
-	</header>
-  <img src="images/headshot.jpg" alt="Photo of Steven Vicino" />
-<div class ="textContainer">
-	<article>
-  <p>
-  Hi, my name is Steven Vicino.  I currently live in Valley Stream, New York with my dog Raffi.
-  </p>
-		<section>
-		<h5>
-		I'm a software developer with passions:
-		</h5>
-		<ul>
-			<li>Web Development</li>
-			<li>Continual Learning New Technologies and also (Currently Learning Spanish and Korean)</li>
-			<li>Working With Great People Who Also Love Animals</li>
-		</ul>
-			</section>
-		<section>
-			<h5> About Me</h5>
-			<p>I recieved my bachelor's in Creative Writing and Business Management from Empire State College.  
-				I have over a decade of management experience having worked for Michael's Arts and Crafts and Bimbo Bakeries USA.
-				While I enjoyed management I went through an intensive software engineering bootcamp at Thinkful, in order to follow my passion for web development.
-				I am interested in joining the industry and working with other people who share my passion for coding.
-			</p>
-		</section>
-	</article>
-	</div>
-	<hr>
-	<article>
-  <h2 class="headingContainer">About</h2>
-<div class ="textContainer">		
-  <p>
-    I graduated college with a major in creative writing and a minor in business maagement.  </p>
-  <p>For the last 12 years I worked in management.</p>
-    <p>Eight years in retail management at Michaels Arts and Crafts and 4 years as a Sales Center Manager at Bimbo Bakeries.</p>
-   <p> While I enjoy management, I also enjoy software development.  Please take a look at my website and in the future, my portfolio.  I hope to:</p>
-	   <ol style="text-align:left"><!-- Align List Items to Left-->
-		   <li>Work in a team to create accomplish goals together.</li>
-		   <li>Constantly challenge myself to learn new and different ideas and concepts.</li>
-		   <li>Bring a positive attitude to overcome any and all impediments</li>
-	</ol>
-		</div>
-	</article>
-  <footer>
-	  <!-- Contact Information-->
-	  <hr>
-  <h2 class ="headingContainer">Contact Information</h2>
-<ul style="list-style: none;"><!-- Remove Bullet Points-->	  
-	<li><a href="https://github.com/stevenvicino/">Git Hub</a></li>
-	<li><a href="https://www.linkedin.com/in/steven-vicino-1b720220a/">Linkedin</a></li>
-	<li><em>Email:</em><a href="mailto:stevenvicino@gmail.com">Stevenvicino@gmail.com</a>
-	  </ul>
-  </footer>
-	<!-- Future JS Code-->	
-  <script src=".scripts.js"></script>
-	</body>
+        <h5>I'm a software developer with passions:</h5>
+        <ul>
+          <li>Web Development</li>
+          <li>
+            Continual Learning New Technologies and also (Currently Learning
+            Spanish and Korean)
+          </li>
+          <li>Working With Great People Who Also Love Animals</li>
+        </ul>
+      </section>
+      <section>
+        <h2>About Me</h2>
+        <p>
+          I recieved my bachelor's in Creative Writing and Business Management
+          from Empire State College. I have over a decade of management
+          experience having worked for Michael's Arts and Crafts and Bimbo
+          Bakeries USA. While I enjoyed management I went through an intensive
+          software engineering bootcamp at Thinkful, in order to follow my
+          passion for web development. I am interested in joining the industry
+          and working with other people who share my passion for coding.
+        </p>
+      </section>
+      <section>
+        <h2>Portfolio</h2>
+        <div>
+          <img src="images/restaurant-starter img.png" />
+          <h3>Restaurant Reservation App</h3>
+          <p>
+            This application is used by the restaurant staff. When a customer
+            calls, the employee can record their information, search by phone
+            number or date, can seat them at a table when they arrive and free
+            the table when the party leaves. The app implements react router and
+            express to build a RESTful API in order to make HTTP requests for
+            all of the reservation data stored on the connected PostgreSQL
+            database. It also utilizes CRUD functions and knex queries to handle
+            data going to and coming from the database.
+          </p>
+          <p>Technology Used: React, Node.js, Express, Knex and PostgreSQL.</p>
+          <a
+            href="https://starter-restaurant-reservation-0k9h.onrender.com/dashboard"
+            >Live Demo</a
+          >
+          <a
+            href="https://github.com/StevenVicino/starter-restaurant-reservation"
+            >Github Repository</a
+          >
+        </div>
+        <div>
+          <img src="images/We-love-movies-img.png" />
+          <h3>Movie Database Application</h3>
+          <p>
+            This is a backend for a website that allows any user to search for
+            their favorite movies. It uses CRUD methods for reviews and view
+            theaters and movies that are showing. The website applies router and
+            controller functions to retrieve a user's specific requests.
+          </p>
+          <p>
+            Technology Used: Node.js, Express, and Knex. Version control with
+            Git.
+          </p>
+          <a href="https://we-love-movies-front-end.onrender.com/">Live Demo</a>
+          <a href="https://github.com/StevenVicino/we-love-movies"
+            >Github Repository</a
+          >
+        </div>
+        <div>
+          <img src="images/flashcard-image.png" />
+          <h3>Flashcard Study App</h3>
+          <p>
+            This is an application that allows users to create, edit, and delete
+            decks and cards within them. It uses REST APIs and middleware
+            functions to allow users to create, read, update and delete their
+            perfect deck of study cards. The routes and URLs are defined and
+            state is used over multiple components.
+          </p>
+          <p>
+            Technology Used: JavaScript, React, Express, Knex, HTML and CSS.
+            Progress/Versions tracked with Git.
+          </p>
+          <a href="https://flashcard-nbay.onrender.com/">Live Demo</a>
+          <a href="https://github.com/StevenVicino/flash-card-app"
+            >Github Repository</a
+          >
+        </div>
+        <div>
+          <img src="images/decoder-image.png" />
+          <h3>Decoder App</h3>
+          <p>
+            Built to be an encryption/decryption application to communicate and
+            read top-secret messages. It was designed to use the Caesar shift,
+            the Polybius square, and Substitution cipher methods
+          </p>
+          <p>
+            Technology Used: JavaScript ES6, HTML5, Node.js, Bootstrap, Mocha,
+            Chai.
+          </p>
+          <a href="https://decoder-ring.onrender.com/">Live Demo</a>
+          <a href="https://github.com/StevenVicino/Decoder-Ring"
+            >Github Repository</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- Contact Information-->
+      <h2 class="headingContainer">Contact Information</h2>
+      <ul style="list-style: none">
+        <!-- Remove Bullet Points-->
+        <li><a href="https://github.com/stevenvicino/">Git Hub</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/steven-vicino-1b720220a/"
+            >Linkedin</a
+          >
+        </li>
+        <li>
+          <em>Email:</em
+          ><a href="mailto:stevenvicino@gmail.com">Stevenvicino@gmail.com</a>
+        </li>
+      </ul>
+    </footer>
+    <script src=".scripts.js"></script>
+  </body>
 </html>
