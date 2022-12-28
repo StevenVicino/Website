@@ -81,7 +81,7 @@ img {
     height:100%;
 }
 
-.portrait {
+img .portrait {
 width: 250px;
 height: 400px;
 }
