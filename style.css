@@ -2,7 +2,7 @@ head, body, footer {
   text-align: center;
     font-family: Calibri;
   color: #000000;
-  border: medium solid #000000;
+  border: thin solid #000000;
   background-color: lightslategray;
   margin: 30px;
 }
@@ -25,14 +25,14 @@ header nav ul li{
 
 .textContainer {
   color: #4E003F;
-  background-color: grey;
-    border: medium solid #000000;
+  background-color: lightsteelblue;
+    border: thin solid #000000;
   margin: 30px;
 }
 
 .container {
-    background-color: grey;
-    border: medium solid #000000;
+    background-color: lightsteelblue;
+    border: thin solid #000000;
   margin: 30px;
   display: flex;
   flex-direction: column;
@@ -40,8 +40,8 @@ header nav ul li{
 }
 
 .intro{
-  background-color: grey;
-  border: medium solid #000000;
+  background-color: lightsteelblue;
+  border: thin solid #000000;
 margin: 30px;
 display: flex;
 flex-direction: row;
