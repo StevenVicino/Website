@@ -82,10 +82,11 @@ img {
 }
 
 .project-image{
-  width:  500px;
-  height: 200px;
-  object-fit: cover;
+  box-shadow: 2.8px 5.6px 5.6px hsl(0deg 0% 0% / 0.41);
+  height: 320px;
+  border-radius: 4px;
 }
+
 
 @media all and (min-width: 600px) {
 header {
