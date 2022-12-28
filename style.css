@@ -81,6 +81,11 @@ img {
     height:100%;
 }
 
+.portrait{
+width:250px;
+  height:400px;
+}
+
 .project-image{
   box-shadow: 2.8px 5.6px 5.6px hsl(0deg 0% 0% / 0.41);
   height: 320px;
