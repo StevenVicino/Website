@@ -81,9 +81,10 @@ img {
     height:100%;
 }
 
-img .portrait {
+.portrait {
 width: 250px;
 height: 400px;
+  !important;
 }
 
 .project-image{
