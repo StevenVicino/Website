@@ -10,125 +10,150 @@
   </head>
   <!-- Website Code-->
   <body>
-    <header class="headingContainer">
-      <img src="images/headshot.jpg" alt="Photo of Steven Vicino" />
-      <h1>Steven Vicino || Full Stack Web Developer</h1>
+    <header class="container">
+      <h1 id="home">Steven Vicino || Full Stack Web Developer</h1>
+      <nav>
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <section>
-        <p>
-          Hi, my name is Steven Vicino. I currently live in Valley Stream, New
-          York with my dog Raffi.
-        </p>
+      <section class="intro">
+        <div class="item">
+          <img src="images/headshot.jpg" alt="Photo of Steven Vicino" />
+        </div>
+        <div class="item">
+          <p>
+            Hi, my name is Steven Vicino. I currently live in Valley Stream, New
+            York with my dog Raffi.
+          </p>
 
-        <h5>I'm a software developer with passions:</h5>
-        <ul>
-          <li>Web Development</li>
-          <li>
-            Continual Learning New Technologies and also (Currently Learning
-            Spanish and Korean)
-          </li>
-          <li>Working With Great People Who Also Love Animals</li>
-        </ul>
+          <p>I'm a software developer with passions:</p>
+          <ul>
+            <li>Web Development</li>
+            <li>
+              Continual Learning New Technologies and also (Currently Learning
+              Spanish and Korean)
+            </li>
+            <li>Working With Great People Who Also Love Animals</li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>About Me</h2>
-        <p>
-          I recieved my bachelor's in Creative Writing and Business Management
-          from Empire State College. I have over a decade of management
-          experience having worked for Michael's Arts and Crafts and Bimbo
-          Bakeries USA. While I enjoyed management I went through an intensive
-          software engineering bootcamp at Thinkful, in order to follow my
-          passion for web development. I am interested in joining the industry
-          and working with other people who share my passion for coding.
-        </p>
+      <section class="container">
+        <h2 id="about">About Me</h2>
+        <div class="group">
+          <div class="item">
+            <p>
+              I recieved my bachelor's in Creative Writing and Business
+              Management from Empire State College. I have over a decade of
+              management experience having worked for Michael's Arts and Crafts
+              and Bimbo Bakeries USA. While I enjoyed management I went through
+              an intensive software engineering bootcamp at Thinkful, in order
+              to follow my passion for web development. I am interested in
+              joining the industry and working with other people who share my
+              passion for coding.
+            </p>
+          </div>
+          <div class="item"><img src="images/raffi-image.tiff" /></div>
+        </div>
       </section>
-      <section>
-        <h2>Portfolio</h2>
-        <div>
-          <img src="images/restaurant-starter img.png" />
-          <h3>Restaurant Reservation App</h3>
-          <p>
-            This application is used by the restaurant staff. When a customer
-            calls, the employee can record their information, search by phone
-            number or date, can seat them at a table when they arrive and free
-            the table when the party leaves. The app implements react router and
-            express to build a RESTful API in order to make HTTP requests for
-            all of the reservation data stored on the connected PostgreSQL
-            database. It also utilizes CRUD functions and knex queries to handle
-            data going to and coming from the database.
-          </p>
-          <p>Technology Used: React, Node.js, Express, Knex and PostgreSQL.</p>
-          <a
-            href="https://starter-restaurant-reservation-0k9h.onrender.com/dashboard"
-            >Live Demo</a
-          >
-          <a
-            href="https://github.com/StevenVicino/starter-restaurant-reservation"
-            >Github Repository</a
-          >
+      <section class="container">
+        <h2 id="portfolio">Portfolio</h2>
+        <div class="group">
+          <div class="item">
+            <img src="images/restaurant-starter img.png" />
+            <h3>Restaurant Reservation App</h3>
+            <p>
+              This application is used by the restaurant staff. When a customer
+              calls, the employee can record their information, search by phone
+              number or date, can seat them at a table when they arrive and free
+              the table when the party leaves. The app implements react router
+              and express to build a RESTful API in order to make HTTP requests
+              for all of the reservation data stored on the connected PostgreSQL
+              database. It also utilizes CRUD functions and knex queries to
+              handle data going to and coming from the database.
+            </p>
+            <p>
+              Technology Used: React, Node.js, Express, Knex and PostgreSQL.
+            </p>
+            <a
+              href="https://starter-restaurant-reservation-0k9h.onrender.com/dashboard"
+              >Live Demo</a
+            >
+            <a
+              href="https://github.com/StevenVicino/starter-restaurant-reservation"
+              >Github Repository</a
+            >
+          </div>
+          <div class="item">
+            <img src="images/We-love-movies-img.png" />
+            <h3>Movie Database Application</h3>
+            <p>
+              This is a backend for a website that allows any user to search for
+              their favorite movies. It uses CRUD methods for reviews and view
+              theaters and movies that are showing. The website applies router
+              and controller functions to retrieve a user's specific requests.
+            </p>
+            <p>
+              Technology Used: Node.js, Express, and Knex. Version control with
+              Git.
+            </p>
+            <a href="https://we-love-movies-front-end.onrender.com/"
+              >Live Demo</a
+            >
+            <a href="https://github.com/StevenVicino/we-love-movies"
+              >Github Repository</a
+            >
+          </div>
         </div>
-        <div>
-          <img src="images/We-love-movies-img.png" />
-          <h3>Movie Database Application</h3>
-          <p>
-            This is a backend for a website that allows any user to search for
-            their favorite movies. It uses CRUD methods for reviews and view
-            theaters and movies that are showing. The website applies router and
-            controller functions to retrieve a user's specific requests.
-          </p>
-          <p>
-            Technology Used: Node.js, Express, and Knex. Version control with
-            Git.
-          </p>
-          <a href="https://we-love-movies-front-end.onrender.com/">Live Demo</a>
-          <a href="https://github.com/StevenVicino/we-love-movies"
-            >Github Repository</a
-          >
-        </div>
-        <div>
-          <img src="images/flashcard-image.png" />
-          <h3>Flashcard Study App</h3>
-          <p>
-            This is an application that allows users to create, edit, and delete
-            decks and cards within them. It uses REST APIs and middleware
-            functions to allow users to create, read, update and delete their
-            perfect deck of study cards. The routes and URLs are defined and
-            state is used over multiple components.
-          </p>
-          <p>
-            Technology Used: JavaScript, React, Express, Knex, HTML and CSS.
-            Progress/Versions tracked with Git.
-          </p>
-          <a href="https://flashcard-nbay.onrender.com/">Live Demo</a>
-          <a href="https://github.com/StevenVicino/flash-card-app"
-            >Github Repository</a
-          >
-        </div>
-        <div>
-          <img src="images/decoder-image.png" />
-          <h3>Decoder App</h3>
-          <p>
-            Built to be an encryption/decryption application to communicate and
-            read top-secret messages. It was designed to use the Caesar shift,
-            the Polybius square, and Substitution cipher methods
-          </p>
-          <p>
-            Technology Used: JavaScript ES6, HTML5, Node.js, Bootstrap, Mocha,
-            Chai.
-          </p>
-          <a href="https://decoder-ring.onrender.com/">Live Demo</a>
-          <a href="https://github.com/StevenVicino/Decoder-Ring"
-            >Github Repository</a
-          >
+        <div class="group">
+          <div class="item">
+            <img src="images/flashcard-image.png" />
+            <h3>Flashcard Study App</h3>
+            <p>
+              This is an application that allows users to create, edit, and
+              delete decks and cards within them. It uses REST APIs and
+              middleware functions to allow users to create, read, update and
+              delete their perfect deck of study cards. The routes and URLs are
+              defined and state is used over multiple components.
+            </p>
+            <p>
+              Technology Used: JavaScript, React, Express, Knex, HTML and CSS.
+              Progress/Versions tracked with Git.
+            </p>
+            <a href="https://flashcard-nbay.onrender.com/">Live Demo</a>
+            <a href="https://github.com/StevenVicino/flash-card-app"
+              >Github Repository</a
+            >
+          </div>
+          <div class="item">
+            <img src="images/decoder-image.png" />
+            <h3>Decoder App</h3>
+            <p>
+              Built to be an encryption/decryption application to communicate
+              and read top-secret messages. It was designed to use the Caesar
+              shift, the Polybius square, and Substitution cipher methods
+            </p>
+            <p>
+              Technology Used: JavaScript ES6, HTML5, Node.js, Bootstrap, Mocha,
+              Chai.
+            </p>
+            <a href="https://decoder-ring.onrender.com/">Live Demo</a>
+            <a href="https://github.com/StevenVicino/Decoder-Ring"
+              >Github Repository</a
+            >
+          </div>
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="container">
       <!-- Contact Information-->
-      <h2 class="headingContainer">Contact Information</h2>
+      <h2 class="headingContainer" id="contact">Contact Information</h2>
       <ul style="list-style: none">
-        <!-- Remove Bullet Points-->
         <li><a href="https://github.com/stevenvicino/">Git Hub</a></li>
         <li>
           <a href="https://www.linkedin.com/in/steven-vicino-1b720220a/"

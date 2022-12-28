@@ -3,7 +3,24 @@ head, body, footer {
     font-family: Calibri;
   color: #000000;
   border: medium solid #000000;
+  background-color: lightslategray;
   margin: 30px;
+}
+
+
+header nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header nav ul li{
+  margin-right:8px;
 }
 
 .textContainer {
@@ -13,32 +30,54 @@ head, body, footer {
   margin: 30px;
 }
 
-.headingContainer {
+.container {
     background-color: grey;
     border: medium solid #000000;
   margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-div {
+.intro{
+  background-color: grey;
+  border: medium solid #000000;
+margin: 30px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+.group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style-type: none;
+}
+
+.item {
   margin: 30px;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 50px;
-  height: auto;
+  flex: 2;
 }
 /* Button Stylization */
 a:link {
 color: blue;
 }
 a:visited {
-color: red;
+color: darkblue;
 }
 a:hover {
 color: lightblue;
 }
 a:active {
 color: lightblue;
+}
+
+img {
+  width:100%
 }
 
 @media all and (min-width: 600px) {
@@ -50,4 +89,5 @@ header {
 
 header nav{
     align-items: center;
+}
 }
