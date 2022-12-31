@@ -63,7 +63,6 @@ li {
 
 .item {
   margin: 30px;
-  flex: 2;
 }
 
 .items {
@@ -94,8 +93,8 @@ img {
 }
 
 .portrait {
-width: 250px;
-height: 400px;
+width: 175px;
+height: 300px;
   !important;
 }
 
