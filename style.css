@@ -7,8 +7,9 @@ head, body, footer {
   margin: 30px;
 }
 
-p {
+p li{
  font-size:large;
+  line-height: 200%;
 }
 
 header nav{
