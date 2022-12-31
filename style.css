@@ -52,6 +52,7 @@ flex-direction: row;
 justify-content: space-evenly;
 }
 
+
 .group{
   display: flex;
   flex-direction: row;
