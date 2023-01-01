@@ -7,7 +7,7 @@ head, body, footer {
   margin: 30px;
 }
 
-p li{
+p, li{
  font-size:large;
   line-height: 200%;
 }
